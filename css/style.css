@@ -1,0 +1,74 @@
+/* Created by: Kaitlyn Ip
+* Created on: Mar 2022
+* This file contains xxx
+*/
+
+body {
+  background-color: #b7c3a2;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+h1 {
+  font: 16pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+  color: darkseagreen;
+}
+
+h2 {
+  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 18pt;
+  color: #408760;
+}
+
+h3 {
+  font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 16pt;
+  color: #6d9a6a;
+}
+
+p.subheader {
+  font-weight: bold;
+  color: #4b7255;
+}
+
+div {
+  font-weight: bold;
+  color: #32533b;
+  margin: 5px;
+}
+
+img {
+  padding: 3pt;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #486a51;
+}
+
+a:hover,
+a:active {
+  color: #699174;
+}
+
+div.footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 30pt;
+}
