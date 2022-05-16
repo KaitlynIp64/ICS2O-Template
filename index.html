@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Address, with JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="xxx" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Kaitlyn Ip" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <title>xxx</title>
+    <link rel="canonical" href="https://kaitlynip64.github.io//ICS2O-Unit-x-yy-JS/" />
+    <link rel="manifest" href="/ICS2O-Unit-x-yy-JS/manifest.webmanifest" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- None blocking for Lighthouse report -->
+    <!-- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></noscript>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-amber.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-amber.min.css"></noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-light_green.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-    <title>xxx</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./js/sw.js");
+      }
+    </script>
     <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
@@ -28,7 +34,18 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        
+        <br>
+        <table>
+          <tr>
+            <th>
+              <img src="./img/unnamed.png" alt="Cookie" width="60%" height="60%" align="left" onclick= "myButtonClicked()"/>
+            </th>
+          </tr>
+        </table>
+        <!-- basic text -->
+        <p></p>
+            <br>
+        <div id="answer"></div>
       </main>
     </div>
   </body>
